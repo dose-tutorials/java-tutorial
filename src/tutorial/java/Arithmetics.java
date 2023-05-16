@@ -47,9 +47,10 @@ public class Arithmetics {
         // the wrapper classes integer have this method to convert
         // a string to an integer value type
         int b = Integer.parseInt(a);
-//        Short.parseShort();
-//        Long.parseLong();
-//        Float.parseFloat();
+//        int b = Short.parseShort(a);
+//        int b = Long.parseLong(a);
+//        int b = Float.parseFloat(a);
+//        int b = Double.parseDouble(a)
         System.out.println(b);
     }
 }
